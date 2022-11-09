@@ -30,6 +30,7 @@ constants:
     - didManagerGetProviders
     - didManagerFind
     - didManagerGet
+    - didManagerGetByAlias
     - didManagerCreate
     - didManagerGetOrCreate
     - didManagerImport
@@ -114,6 +115,8 @@ server:
           - metaData:
               type: DIDComm
               value: https
+          - save:
+              true
 
     # API base path
     - - /agent
