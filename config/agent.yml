@@ -112,11 +112,10 @@ server:
     - - /messaging
       - $require: "@veramo/remote-server?t=function#MessagingRouter"
         $args:
-          - metaData:
+          - save: true
+            metaData:
               type: DIDComm
               value: https
-          - save:
-              true
 
     # API base path
     - - /agent
