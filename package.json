@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@veramo/cli": "^4.1.3-next.8",
+    "@veramo/credential-eip712": "^4.1.1",
     "agent-explore": "^1.8.3"
   }
 }
