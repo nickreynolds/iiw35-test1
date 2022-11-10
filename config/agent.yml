@@ -305,6 +305,7 @@ agent:
         - $require: "@veramo/did-comm#DIDComm"
         - $require: '@veramo/credential-w3c#CredentialPlugin'
         - $ref: /credentialIssuerLD
+        - $require: '@veramo/credential-eip712#CredentialEIP712Issuer'
         - $require: "@veramo/selective-disclosure#SelectiveDisclosure"
         - $require: "@veramo/data-store#DataStore"
           $args:
