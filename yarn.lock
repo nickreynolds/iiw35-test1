@@ -1486,18 +1486,6 @@
     ws "^8.4.0"
     yaml "^2.0.0"
 
-"@veramo/core@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@veramo/core/-/core-4.1.1.tgz#9174e94db6d80dc3645e21ea814a84a83347766b"
-  integrity sha512-gkmKhiCaop5XLa5qFqBNe38JQ3NmT/PvMQP7QMFTAmrdqIKR2upTa/ySGFaR5I53iLB039ifR59GS4WSz54mAw==
-  dependencies:
-    credential-status "^2.0.5"
-    debug "^4.3.3"
-    did-jwt-vc "^3.1.0"
-    did-resolver "^4.0.1"
-    events "^3.2.0"
-    z-schema "^5.0.2"
-
 "@veramo/core@^4.1.3-next.8+5e18427d":
   version "4.1.3-next.8"
   resolved "https://registry.yarnpkg.com/@veramo/core/-/core-4.1.3-next.8.tgz#e145b4bf2c576353b1d3d9ab9ef8037c1e78af99"
@@ -1510,14 +1498,14 @@
     events "^3.2.0"
     z-schema "^5.0.2"
 
-"@veramo/credential-eip712@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@veramo/credential-eip712/-/credential-eip712-4.1.1.tgz#1e641502e9f0e740b41552a4e1a84935b9ab2e00"
-  integrity sha512-5I5ZxZUYAh9sJ9OeVTJB0fzAY/LBdmX1ZjoSVglzVZiVes1nE9SONXH8m9GtFSYMdAhtwqbbcBnx0yE/8qhBdg==
+"@veramo/credential-eip712@^4.1.3-next.8":
+  version "4.1.3-next.8"
+  resolved "https://registry.yarnpkg.com/@veramo/credential-eip712/-/credential-eip712-4.1.3-next.8.tgz#51095df5823d4502084b47a7c89ef62f0bf3b69b"
+  integrity sha512-9HWliIpx47sXO6ZIQgiHQzox2TOV2f1UesmViIl2uGE5vPmIS97ustLvXltHyl5Y0MU3OSipF0oXy+QOmU1rWA==
   dependencies:
     "@metamask/eth-sig-util" "^5.0.0"
-    "@veramo/core" "^4.1.1"
-    "@veramo/utils" "^4.1.1"
+    "@veramo/core" "^4.1.3-next.8+5e18427d"
+    "@veramo/utils" "^4.1.3-next.8+5e18427d"
     debug "^4.3.3"
     eip-712-types-generation "^0.1.6"
 
@@ -1754,23 +1742,6 @@
     cross-fetch "^3.1.4"
     debug "^4.3.3"
     url-parse "^1.5.4"
-
-"@veramo/utils@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@veramo/utils/-/utils-4.1.1.tgz#28516aee3f19d7fdf25a2244ea1e40e4c6d9de7b"
-  integrity sha512-YfPP1SrXcxf31lgDRUxF30MCn7j4/Rdk9u47VuDDD8oH+1aGTUDq2QNAl0BVcL4QImxAS1+2xm3optdFt/dNAA==
-  dependencies:
-    "@ethersproject/transactions" "^5.7.0"
-    "@stablelib/ed25519" "^1.0.2"
-    "@veramo/core" "^4.1.1"
-    blakejs "^1.1.1"
-    cross-fetch "^3.1.4"
-    debug "^4.3.3"
-    did-jwt "^6.9.0"
-    did-jwt-vc "^3.1.0"
-    did-resolver "^4.0.1"
-    elliptic "^6.5.4"
-    uint8arrays "^3.0.0"
 
 "@veramo/utils@^4.1.3-next.8+5e18427d":
   version "4.1.3-next.8"
